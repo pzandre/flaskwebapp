@@ -1,8 +1,8 @@
-#Webapp feito em Python - __Modulo Flask__
+# Webapp feito em Python - __Modulo Flask__
 
-##_Por Andre Perez_
+## _Por Andre Perez_
 
-###Inicio do desenvolvimento em 10 de setembro de 2020.
+### Inicio do desenvolvimento em 10 de setembro de 2020.
 
 
 O webapp esta sendo desenvolvido mediante [tutorial no Youtube](https://youtu.be/MwZwr5Tvyxo).
