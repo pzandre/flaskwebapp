@@ -1,15 +1,14 @@
-# Webapp feito em Python - __Modulo Flask__
+# Webapp feito em Python - __Módulo Flask__
 
 ## _Por Andre Perez_
 
-### Inicio do desenvolvimento em 10 de setembro de 2020.
+### Início do desenvolvimento em 10 de setembro de 2020.
 
 
-O webapp esta sendo desenvolvido mediante [tutorial no Youtube](https://youtu.be/MwZwr5Tvyxo).
+O webapp está sendo desenvolvido mediante [tutorial no Youtube](https://youtu.be/MwZwr5Tvyxo).
 
-O objetivo e criar um webapp em Python que funcione como um blog, com pagina de registro e login.
+O objetivo é criar um webapp em Python que funcione como um blog, com página de registro e login.
 
-Ate o momento temos o arquivo flaskblog.py, que contem os posts e a informacao do webserver.
-Tambem temos os templates HTML, sendo o layout.html o template pai, e o arquivo principal de CSS main.css.
+Além do login, temos também alterações na foto do usuário, serviço de reenvio de senha por email funcional, e criação de posts com paginação na Home e também na página do autor.
 
-Conforme o projeto for sendo atualizado, este README tambem sera.
+Conforme o projeto for sendo atualizado, este README também será.
