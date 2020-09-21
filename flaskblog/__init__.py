@@ -5,11 +5,16 @@ from flask_login import LoginManager
 from flask_mail import Mail
 from flaskblog.config import Config
 
-
+# criação de base de dados, o bcrypt permite uso de criptografia em hashes
 db = SQLAlchemy()
 bcrypt = Bcrypt()
 login_manager = LoginManager()
+#: The name of the view to redirect to when the user needs to log in.
+#: (This can be an absolute URL as well, if your authentication
+#: machinery is external to your application.)
 login_manager.login_view = 'users.login'
+#: The message category to flash when a user is redirected to the login
+#: page.
 login_manager.login_message_category = 'info'
 mail = Mail()
 
